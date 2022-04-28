@@ -11,7 +11,7 @@ Recognizing 3D part instances from 3D point cloud is crucial for 3D structure an
 
 In this repository, we release the code and data for training the networks for 3d shape instance segmentation.
 
-<!-- ## Citation
+## Citation
 
 If you use our code for research, please cite our paper:
 ```
@@ -22,7 +22,7 @@ If you use our code for research, please cite our paper:
   year      = {2022},
   publisher = {Springer}
 }
-``` -->
+```
 
 ## Setup
 
@@ -38,9 +38,11 @@ If you use our code for research, please cite our paper:
 
 ### Data Preparation
 
-We provide the Google drive link for downloading the training and test datasets:
+Refer to the folder `data_preprocessing` for generating the training and test data.
 
->[Training data](https://pan.baidu.com/s/1fIy5LvqkqW_Usr5yoDoMyg) [need update]
+And we also provide the Baidu drive link for downloading the training and test datasets:
+
+>[Training data](https://pan.baidu.com/s/1IQoUcak971ENxQQNfn0Q0w?pwd=3ins)
 
 
 ### Training
@@ -57,7 +59,7 @@ To test a trained model, run
 
 We provide the trained weights used in our paper:
 
->[Weights](https://pan.baidu.com/s/1BlzepfBJzKMV5VnmAbV_mA) [need update]
+>[Weights](https://pan.baidu.com/s/1EumXaBohQ0p9daw9R5xhLQ?pwd=3ins)
 
 
 
