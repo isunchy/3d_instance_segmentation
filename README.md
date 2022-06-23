@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This work is based on our * paper. We proposed a new method for 3D shape instance segmentation. You can check our [project webpage](https://isunchy.github.io/projects/3d_instance_segmentation.html) for a quick overview.
+This work is based on our CVM paper. We proposed a new method for 3D shape instance segmentation. You can check our [project webpage](https://isunchy.github.io/projects/3d_instance_segmentation.html) for a quick overview.
 
 Recognizing 3D part instances from 3D point cloud is crucial for 3D structure and scene understanding. Many learning-based approaches simply utilize semantic segmentation and instance center prediction as training tasks and fail to further exploit the inherent relationship between shape semantics and part instances. In this paper, we present a new method for 3D part instance segmentation. Our method exploits semantic segmentation for fusing nonlocal instance features for instance center prediction and further enhances the fusion scheme in a multi- and cross-level way. We also propose a semantic region center prediction task for training and leverage the prediction results to improve the clustering of instance points. Our method outperforms existing methods with a large-margin improvement in the PartNet benchmark. We also demonstrate that our feature fusion scheme can be applied to other existing methods to improve their performance in indoor scene instance segmentation tasks.
 
